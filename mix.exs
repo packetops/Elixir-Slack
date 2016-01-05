@@ -20,7 +20,7 @@ defmodule Slack.Mixfile do
   defp deps do
     [{:httpoison, "~> 0.8.0"},
      {:exjsx, "~> 3.2.0"},
-     {:websocket_client, github: "jeremyong/websocket_client"},
+     {:websocket_client, github: "jeremyong/websocket_client", ref: "f465f229958293949e4a192bea65a7e47bb2f762"},
      {:earmark, "~> 0.2.0", only: :dev},
      {:ex_doc, "~> 0.11", only: :dev}]
   end
